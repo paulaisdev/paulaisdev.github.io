@@ -228,6 +228,15 @@
     max-width: 100%;
   }
 
+  .brand-logos-row {
+    gap: 1.5rem;
+  }
+
+  .brand-logo {
+    max-width: 120px;
+    max-height: 80px;
+  }
+
   .footer-copyright p {
     font-size: 1.2rem;
   }
@@ -236,6 +245,15 @@
 @media (max-width: 406px) {
   html {
     font-size: 50%;
+  }
+
+  .brand-logos-row {
+    flex-direction: column;
+  }
+
+  .brand-logo {
+    max-width: 100px;
+    max-height: 70px;
   }
 
   .footer-copyright p {
