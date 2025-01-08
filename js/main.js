@@ -21,6 +21,12 @@ navBtn.onclick = () => {
   }
 };
 
+// Carousel
+function toggleCarousel() {
+  const carousel = document.getElementById("carousel");
+  carousel.classList.toggle("hidden");
+}
+
 //Sticky header & goToTop button
 window.addEventListener("scroll", function () {
   const header = document.querySelector("#header");
